@@ -13,7 +13,7 @@
 >>> 
 >>> 
 >>> 
->>> # Now with autospec
+>>> # Now with spec
 ... my_class_mock = Mock(spec=MyClass)
 >>> my_class_mock.i_do_not_exist()
 Traceback (most recent call last):
